@@ -1,4 +1,4 @@
-local Node = require("node")
+local Node = require("./node")
 type Node = Node.Node
 
 local Router = {}

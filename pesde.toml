@@ -1,0 +1,14 @@
+name = "synpixel/lynx"
+version = "1.0.0"
+description = "A copy of Nicell's lynx, for pesde"
+authors = ["Nicell"]
+repository = "https://github.com/synpixel/lynx"
+license = "MIT"
+includes = ["pesde.toml", "README.md", "LICENSE", "src"]
+
+[target]
+environment = "lune"
+lib = "src/init.luau"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"
